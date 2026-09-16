@@ -1,0 +1,21 @@
+#tipografia
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+#tema
+theme = Catppuccin Mocha
+background-opacity = 0.95
+background-blur = true
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = none
+
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+custom-shader-animation = always
+
+#mouse-hide-while-typing = true
+
+# Shader de estela de cursor personalizado (Punto medio con glow sutil)
+custom-shader = shaders/cursor_smear_mid.glsl

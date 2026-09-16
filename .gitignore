@@ -1,0 +1,61 @@
+# Herdr runtime state, logs, and sockets
+herdr/*.log
+herdr/*.sock
+herdr/session.json
+herdr/release-notes.json
+herdr/.plugins.lock
+
+# Zellij runtime and downloaded WASM plugins
+zellij/plugins/*.wasm
+*.bak
+
+# Installer backups
+alva-terminal-dots-backup-*/
+
+# Neovim & Vim temporary/swap files
+*.swp
+*.swo
+*.swn
+*.un~
+*~
+.netrwhist
+nvim/.repro/
+nvim/.tests/
+nvim/debug/
+nvim/data/
+
+# Environment variables & credentials
+.env
+.env.local
+.env.*.local
+
+# Python runtime & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Node.js & package manager caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# AI agent local runtime caches & specs
+.atl/
+openspec/
+docs/
+
+# OS & system artifacts
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+a.out
